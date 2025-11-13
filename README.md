@@ -17,12 +17,12 @@ Copy the following url into the Dotfiles Installer and start the installation.
 #### Stable Release
 
 ```
-https://raw.githubusercontent.com/Lynux2142/dotfiles/main/hyprland-dotfiles-stable.dotinst
+https://raw.githubusercontent.com/Lynux2142/dotfiles/master/hyprland-dotfiles-stable.dotinst
 ```
 #### Rolling Release
 
 ```
-https://raw.githubusercontent.com/Lynux2142/dotfiles/main/hyprland-dotfiles.dotinst
+https://raw.githubusercontent.com/Lynux2142/dotfiles/master/hyprland-dotfiles.dotinst
 ```
 Setup scripts to install the required dependencies are included for <i class="devicon-archlinux-plain"></i> **Arch, <i class="devicon-fedora-plain"></i> Fedora and <i class="devicon-opensuse-plain"></i> openSuse Tumbleweed**.<br>
 For other distros, please install <a href="https://mylinuxforwork.github.io/dotfiles/getting-started/dependencies" target="_blank">the dependencies</a> first.
