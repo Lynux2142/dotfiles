@@ -74,9 +74,9 @@ fi
 option_1="Immediate"
 option_2="Delayed"
 
-option_capture_1="Capture Everything"
-option_capture_2="Capture Active Display"
-option_capture_3="Capture Selection"
+option_capture_1="Capture Selection"
+option_capture_2="Capture Everything"
+option_capture_3="Capture Active Display"
 
 option_time_1="5s"
 option_time_2="10s"
@@ -155,13 +155,13 @@ type_screenshot_exit() {
 type_screenshot_run() {
     selected_type_screenshot="$(type_screenshot_exit)"
     if [[ "$selected_type_screenshot" == "$option_capture_1" ]]; then
-        option_type_screenshot=screen
+        option_type_screenshot=area
         ${1}
     elif [[ "$selected_type_screenshot" == "$option_capture_2" ]]; then
-        option_type_screenshot=output
+        option_type_screenshot=screen
         ${1}
     elif [[ "$selected_type_screenshot" == "$option_capture_3" ]]; then
-        option_type_screenshot=area
+        option_type_screenshot=output
         ${1}
     else
         exit

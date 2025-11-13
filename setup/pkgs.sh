@@ -32,6 +32,7 @@ apps=(
     "blueman"
     "qt6ct"
     "nautilus"
+    "nwg-display"
 )
 
 tools=(
@@ -50,4 +51,9 @@ tools=(
     "gvfs"
     "grim"
     "breeze"
+    "fish"
+    "ncdu"
+    "lazygit"
+    "lazydocker"
+    "gping"
 )

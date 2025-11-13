@@ -2,12 +2,12 @@
 	"name": "ML4W Dotfiles for Hyprland (STABLE RELEASE)",
 	"id": "com.ml4w.dotfiles.stable",
 	"description": "Advanced configuration for the dynamic tiling window manager Hyprland",
-	"version":"2.9.9.3",
+	"version":"2.9.9.3a0",
 	"author": "Stephan Raabe",
 	"homepage": "https://mylinuxforwork.github.io/dotfiles/",
 	"dependencies": "https://mylinuxforwork.github.io/dotfiles/getting-started/dependencies",
-	"source": "https://github.com/mylinuxforwork/dotfiles.git",
-	"tag":"2.9.9.3",
+	"source": "https://github.com/Lynux2142/dotfiles.git",
+	"tag":"2.9.9.3a0",
 	"subfolder": "dotfiles",
 	"setupscript":"setup/setup.sh",
 	"restore":[
@@ -100,7 +100,7 @@
 			"file":".config/hypr/conf/keyboard.conf",
 			"checkpoint":"Check",
 			"search":"kb_layout",
-			"value":"us",
+			"value":"fr",
 			"template":"    kb_layout = [VALUE]"
 		},
 		{
@@ -110,7 +110,7 @@
 			"file":".config/hypr/conf/keyboard.conf",
 			"checkpoint":"Check",
 			"search":"kb_variant",
-			"value":"",
+			"value":"us",
 			"template":"    kb_variant = [VALUE]"
 		},
 		{

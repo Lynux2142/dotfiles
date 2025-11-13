@@ -84,47 +84,8 @@
           "trailing_diamond": "",
           "template": " ({{ url .UpstreamIcon .UpstreamURL }} {{ url .HEAD .UpstreamURL }}){{ if gt .Ahead 0 }}<#50fa7b> +{{ .Ahead }}</>{{ end }}{{ if gt .Behind 0 }}<#ff5555> -{{ .Behind }}</>{{ end }}{{ if .Working.Changed }}<p:color15>  {{ .Working.String }}</>{{ end }}{{ if .Staging.Changed }}<p:color15>  {{ .Staging.String }}</>{{ end }}",
           "foreground": "p:color13",
-          "background": "#ffb86c",
+          "background": "p:color10",
           "type": "git",
-          "style": "diamond"
-        },
-        {
-          "leading_diamond": "",
-          "trailing_diamond": "",
-          "template": " {{ .Full }}",
-          "foreground": "p:color13",
-          "background": "#50fa7b",
-          "type": "node",
-          "style": "diamond"
-        },
-        {
-          "properties": {
-            "display_mode": "files",
-            "extensions": [
-              "package-lock.json"
-            ]
-          },
-          "leading_diamond": "",
-          "trailing_diamond": "",
-          "template": " {{ .Full }}",
-          "foreground": "p:color13",
-          "background": "#ff5555",
-          "type": "npm",
-          "style": "diamond"
-        },
-        {
-          "properties": {
-            "display_mode": "files",
-            "extensions": [
-              "pnpm-lock.yaml"
-            ]
-          },
-          "leading_diamond": "",
-          "trailing_diamond": "",
-          "template": "󰋁 {{ .Full }}",
-          "foreground": "p:color13",
-          "background": "#ffb86c",
-          "type": "pnpm",
           "style": "diamond"
         },
         {
@@ -133,28 +94,10 @@
           },
           "leading_diamond": "",
           "trailing_diamond": "",
-          "template": " {{ .Full }}",
+          "template": " {{ .Full }}{{ if .Venv }} ({{ .Venv }}){{ end }}",
           "foreground": "p:color13",
-          "background": "#50fa7b",
+          "background": "p:color10",
           "type": "python",
-          "style": "diamond"
-        },
-        {
-          "leading_diamond": "",
-          "trailing_diamond": "",
-          "template": " {{ .Full }}",
-          "foreground": "p:color13",
-          "background": "#ff79c6",
-          "type": "java",
-          "style": "diamond"
-        },
-        {
-          "leading_diamond": "",
-          "trailing_diamond": "",
-          "template": " {{ .Full }}",
-          "foreground": "p:color15",
-          "background": "#6272a4",
-          "type": "php",
           "style": "diamond"
         }
       ]
