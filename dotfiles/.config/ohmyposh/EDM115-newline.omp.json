@@ -69,6 +69,7 @@
     },
     {
       "type": "prompt",
+      "overflow": "break",
       "alignment": "right",
       "segments": [
         {
