@@ -56,6 +56,8 @@ set ttyfast                 " Speed up scrolling in Vim
 autocmd InsertEnter *   :set norelativenumber
 autocmd InsertLeave *   :set relativenumber
 
+colorscheme badwolf
+
 hi NonText ctermbg=none guibg=NONE
 hi Normal guibg=NONE ctermbg=NONE
 hi NormalNC guibg=NONE ctermbg=NONE

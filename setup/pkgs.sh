@@ -5,6 +5,7 @@ general=(
     "git"
     "rsync"
     "unzip"
+    "tar"
     "jq"
     "flatpak"
     "vim"
@@ -56,4 +57,5 @@ tools=(
     "lazygit"
     "lazydocker"
     "gping"
+    "btop"
 )
