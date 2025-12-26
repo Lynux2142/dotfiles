@@ -40,6 +40,7 @@ packages=(
     "pacman-contrib"
     "loupe"
     "power-profiles-daemon"
+    "rocm-smi-lib"
     # Apps
     "waypaper"
     "swaync"
