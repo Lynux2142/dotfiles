@@ -1,3 +1,11 @@
+Version 2.9.9.5
+--------------------------------------------------------
+- New windowrule syntax required for Hyprland 0.53.x
+- swww is the new default wallpaper engine. Please switch from hyprpaper to swww in waypaper in case of an Dotfiles update.
+- New Global Theme "transparent"
+- copr for Hyprland on Fedora replaced. Please run the setup script again with the Dotfiles Installer.
+- New Glass Center Waybar Theme with workspace selector in the center.
+
 Version 2.9.9.4
 --------------------------------------------------------
 - Global Theme support: CTRL+ALT+T to open the theme selector
