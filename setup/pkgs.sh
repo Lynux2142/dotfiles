@@ -34,12 +34,12 @@ apps=(
     "blueman"
     "qt6ct"
     "nautilus"
-    "nwg-display"
+    "nwg-displays"
 )
 
 tools=(
-    "xdg-user-dirs"    
-    "xdg-desktop-portal-gtk"    
+    "xdg-user-dirs"
+    "xdg-desktop-portal-gtk"
     "figlet"
     "fastfetch"
     "htop"
@@ -58,5 +58,11 @@ tools=(
     "lazygit"
     "lazydocker"
     "gping"
+    "tesseract"
+    "wl-clipboard"
     "btop"
+    "go"
+    "cmake"
+    "npm"
+    "jdk21-openjdk"
 )
