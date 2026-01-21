@@ -66,4 +66,5 @@ tools=(
     "cmake"
     "npm"
     "jdk21-openjdk"
+    "keyd"
 )
