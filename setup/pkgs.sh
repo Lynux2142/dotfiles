@@ -61,6 +61,7 @@ tools=(
     "tesseract"
     "wl-clipboard"
     "btop"
+    "rocm-smi-lib"
     "go"
     "cmake"
     "npm"
