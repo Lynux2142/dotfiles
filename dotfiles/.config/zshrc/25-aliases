@@ -27,6 +27,7 @@ alias clock='tty-clock'
 alias system='~/.config/ml4w/settings/systemmonitor'
 alias quick='~/.config/ml4w/bin/ml4w-quicklinks.sh'
 alias wallpaper='~/.config/ml4w/bin/ml4w-wallpaper.sh'
+alias ssh='TERM=xterm-256color kitty +kitten ssh'
 
 
 # -----------------------------------------------------
