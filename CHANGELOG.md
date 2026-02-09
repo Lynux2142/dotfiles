@@ -1,3 +1,11 @@
+Version 2.10.0
+--------------------------------------------------------
+- Project renamed to ML4W OS
+- Live ISO and installation script available (BETA)
+- btop is now using the matugen generated color theme
+- New Calendar App with the possibility to add events. CREDITS TO https://github.com/defaltastra
+- Cleaned up Welcome and Settings App
+
 Version 2.9.9.6
 --------------------------------------------------------
 - Glass and Transparent theme updated for Blur decoration. Can be set in the settings app.

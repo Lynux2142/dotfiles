@@ -26,6 +26,7 @@ apps=(
     "wlogout"
     "vlc"
     "nwg-dock-hyprland"
+    "nwg-displays"
     "waybar"
     "rofi"
     "nwg-look"
@@ -34,7 +35,7 @@ apps=(
     "blueman"
     "qt6ct"
     "nautilus"
-    "nwg-displays"
+    "gnome-text-editor"
 )
 
 tools=(
