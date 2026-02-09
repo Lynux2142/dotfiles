@@ -68,4 +68,7 @@ tools=(
     "npm"
     "jdk21-openjdk"
     "keyd"
+    "openvpn"
+    "networkmanager-openvpn"
+    "networkmanager-vpn-plugin-openvpn"
 )
