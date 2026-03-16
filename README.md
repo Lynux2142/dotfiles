@@ -2,17 +2,30 @@
 
 An advanced configuration of Hyprland for Arch Linux based distributions. Full featured desktop environment based on the dynamic tiling window manager Hyprland with adaptive material color themes based on the selected wallpaper for all components. Including a comprehensive selection of apps with the ability to customize the configuration to your personal needs.
 
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/230d9fde-3876-40c4-a830-4788dffccb44" />
+<img width="2560" height="1440" alt="image" src="https://ml4w.com/os/screen-2111.jpg" />
 
 ## Installation and Documentation
 
 You can find all installation options in the documentation of the ML4W OS for Hyprland here:<br><b>https://ml4w.com/os/</b>
 
+### Quick Installation
+
+Copy one of the following commands into your terminal:
+
+```sh
+bash <(curl -s https://ml4w.com/os/stable) # Stable Release
+```
+
+```sh
+bash <(curl -s https://ml4w.com/os/rolling) # Rolling Release
+```
+Arch, Fedora and openSuse Tumblweed are directly supported.
+
 ### Test and install with the ML4W OS Live ISO
 
 Test the ML4W OS without risk on your computer or in a Virtual Machine with the ML4W Live ISO.
 
-<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.10.1-x86_64.iso">Download the ML4W ISO</a>
+<a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.11.1-x86_64.iso">Download the ML4W ISO</a>
 
 You can install the ML4W OS on your hard drive with the command `sudo install-ml4w-os` (BETA).
 

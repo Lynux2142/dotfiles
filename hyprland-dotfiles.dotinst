@@ -2,7 +2,7 @@
 	"name": "ML4W OS - Dotfiles for Hyprland (ROLLING RELEASE)",
 	"id": "com.ml4w.dotfiles",
 	"description": "Advanced configuration for the dynamic tiling window manager Hyprland",
-	"version":"2.11.0a0",
+	"version":"2.11.1a0",
 	"author": "Stephan Raabe",
 	"homepage": "https://ml4w.com/os/",
 	"dependencies": "https://ml4w.com/os/getting-started/dependencies",
@@ -28,6 +28,11 @@
 		{
 			"title":"NWG-Displays",
 			"source":".config/hypr/monitors.conf",
+			"value":true
+		},
+		{
+			"title":"Hyprsunset",
+			"source":".config/hypr/hyprsunset.conf",
 			"value":true
 		},
 		{

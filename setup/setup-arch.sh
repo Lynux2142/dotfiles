@@ -35,12 +35,12 @@ packages=(
     "network-manager-applet"
     "imagemagick"
     "polkit-gnome"
-    "hyprshade"
     "grimblast-git"
     "pacman-contrib"
     "loupe"
     "power-profiles-daemon"
     "rocm-smi-lib"
+    "hyprsunset"
     # Apps
     "waypaper"
     "swaync"
