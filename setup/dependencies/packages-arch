@@ -30,3 +30,11 @@ qt6-virtualkeyboard
 qt6-multimedia-ffmpeg
 gvfs-mtp
 quickshell
+rocm-smi-lib
+cmake
+npm
+jdk21-openjdk
+keyd
+openvpn
+networkmanager-openvpn
+networkmanager-vpn-plugin-openvpn
