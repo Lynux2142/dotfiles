@@ -100,50 +100,5 @@
 			"source":".gtkrc-2.0",
 			"value":true
 		}
-<<<<<<< HEAD
-	],
-	"settings":[
-		{
-			"type":"text",
-			"mode":"replacesingleline",
-			"title":"Keyboard Layout",
-			"file":".config/hypr/conf/keyboard.conf",
-			"checkpoint":"Check",
-			"search":"kb_layout",
-			"value":"fr",
-			"template":"    kb_layout = [VALUE]"
-		},
-		{
-			"type":"text",
-			"mode":"replacesingleline",
-			"title":"Keyboard Variant",
-			"file":".config/hypr/conf/keyboard.conf",
-			"checkpoint":"Check",
-			"search":"kb_variant",
-			"value":"us",
-			"template":"    kb_variant = [VALUE]"
-		},
-		{
-			"type":"text",
-			"mode":"overwritefile",
-			"title":"Default Terminal",
-			"file":".config/ml4w/settings/terminal.sh",
-			"checkpoint":"Check",
-			"search":"",
-			"value":"kitty",
-			"template":""
-		},
-		{
-			"type":"text",
-			"mode":"overwritefile",
-			"title":"Default Browser",
-			"file":".config/ml4w/settings/browser.sh",
-			"checkpoint":"Check",
-			"search":"",
-			"value":"firefox",
-			"template":""
-		}
-=======
->>>>>>> 2.12.0
 	]
 }
