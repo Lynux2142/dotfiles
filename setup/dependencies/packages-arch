@@ -24,7 +24,6 @@ otf-font-awesome
 ttf-firacode-nerd
 ttf-jetbrains-mono-nerd
 tty-clock
-swww
 qt6-svg
 qt6-virtualkeyboard
 qt6-multimedia-ffmpeg
@@ -38,3 +37,4 @@ keyd
 openvpn
 networkmanager-openvpn
 networkmanager-vpn-plugin-openvpn
+awww
