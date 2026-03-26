@@ -37,4 +37,5 @@ keyd
 openvpn
 networkmanager-openvpn
 networkmanager-vpn-plugin-openvpn
+fprintd
 awww
