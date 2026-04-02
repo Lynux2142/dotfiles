@@ -3,6 +3,11 @@
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 # --------------------------------------------------------------
+# Quickshell
+# --------------------------------------------------------------
+sudo zypper install quickshell
+
+# --------------------------------------------------------------
 # Oh My Posh
 # --------------------------------------------------------------
 
@@ -31,13 +36,6 @@ sudo zypper ar https://download.opensuse.org/tumbleweed/repo/oss/ factory-oss
 sudo zypper -n install eza
 
 # --------------------------------------------------------------
-# Install swww
-# --------------------------------------------------------------
-
-sudo zypper addrepo https://download.opensuse.org/repositories/X11:Wayland/openSUSE_Tumbleweed/X11:Wayland.repo
-sudo zypper -n install swww
-
-# --------------------------------------------------------------
 # JetBrains Mono Nerd Font
 # --------------------------------------------------------------
 
@@ -48,16 +46,22 @@ sudo zypper -n install jetbrainsmono-nerd-fonts
 # Install waypaper dependencies before using pip
 # --------------------------------------------------------------
 
-sudo zypper install gcc pkg-config cairo-devel gobject-introspection-devel libgirepository-1_0-1-devel python3-devel libgtk-4-devel typelib-1_0-Gtk-4_0
+sudo zypper -n install gcc pkg-config cairo-devel gobject-introspection-devel libgirepository-1_0-1-devel python3-devel libgtk-4-devel typelib-1_0-Gtk-4_0 python313-screeninfo
 
 # --------------------------------------------------------------
 # Pip
 # --------------------------------------------------------------
 
 echo ":: Installing packages with pip"
-sudo zypper -n install python313-screeninfo
 pipx install pywalfox
-pipx install waypaper
+
+# Installing Waypaper from Git
+echo ":: Installing Waypaper from Git"
+sudo zypper install -n -t pattern devel_basis
+sudo zypper install -n python3-devel
+sudo zypper install -n python313-pycairo-devel 
+sudo zypper install -n python313-gobject-devel
+pipx install --force git+https://github.com/anufrievroman/waypaper
 
 # --------------------------------------------------------------
 # Grimblast

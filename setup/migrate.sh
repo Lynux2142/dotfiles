@@ -32,3 +32,45 @@ FLATPAK_ID="com.ml4w.sidebar"
 if flatpak info "$FLATPAK_ID" > /dev/null 2>&1; then
     flatpak remove -y $FLATPAK_ID
 fi
+
+# openSuse: Set wallpaper engine to hyprpaper
+if command -v zypper &> /dev/null; then 
+    if [ -d $HOME/.mydotfiles/com.ml4w.dotfiles ]; then
+        WAYPAPER_CONFIG="$HOME/.mydotfiles/com.ml4w.dotfiles/.config/waypaper/config.ini"
+        sed -i 's/awww/hyprpaper/g' "$WAYPAPER_CONFIG"
+        echo ":: Successfully switched from awww to hyprpaper."
+    fi
+    if [ -d $HOME/.mydotfiles/com.ml4w.dotfiles.stable ]; then
+        WAYPAPER_CONFIG="$HOME/.mydotfiles/com.ml4w.dotfiles.stable/.config/waypaper/config.ini"
+        sed -i 's/awww/hyprpaper/g' "$WAYPAPER_CONFIG"
+        echo ":: Successfully switched from awww to hyprpaper."
+    fi 
+fi
+
+# Fedora: Set wallpaper engine to awww
+if command -v dnf &> /dev/null; then 
+    if [ -d $HOME/.mydotfiles/com.ml4w.dotfiles ]; then
+        WAYPAPER_CONFIG="$HOME/.mydotfiles/com.ml4w.dotfiles/.config/waypaper/config.ini"
+        sed -i 's/swww/awww/g' "$WAYPAPER_CONFIG"
+        echo ":: Successfully switched from swww to awww."
+    fi
+    if [ -d $HOME/.mydotfiles/com.ml4w.dotfiles.stable ]; then
+        WAYPAPER_CONFIG="$HOME/.mydotfiles/com.ml4w.dotfiles.stable/.config/waypaper/config.ini"
+        sed -i 's/swww/awww/g' "$WAYPAPER_CONFIG"
+        echo ":: Successfully switched from swww to awww."
+    fi 
+fi
+
+# Arch: Set wallpaper engine to awww
+if command -v pacman &> /dev/null; then 
+    if [ -d $HOME/.mydotfiles/com.ml4w.dotfiles ]; then
+        WAYPAPER_CONFIG="$HOME/.mydotfiles/com.ml4w.dotfiles/.config/waypaper/config.ini"
+        sed -i 's/swww/awww/g' "$WAYPAPER_CONFIG"
+        echo ":: Successfully switched from swww to awww."
+    fi
+    if [ -d $HOME/.mydotfiles/com.ml4w.dotfiles.stable ]; then
+        WAYPAPER_CONFIG="$HOME/.mydotfiles/com.ml4w.dotfiles.stable/.config/waypaper/config.ini"
+        sed -i 's/swww/awww/g' "$WAYPAPER_CONFIG"
+        echo ":: Successfully switched from swww to awww."
+    fi 
+fi
