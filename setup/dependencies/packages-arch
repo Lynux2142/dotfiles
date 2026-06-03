@@ -1,4 +1,6 @@
 hyprland
+hyprsysteminfo
+hyprshutdown
 libnotify
 qt5-wayland
 qt6-wayland
@@ -38,3 +40,4 @@ networkmanager-vpn-plugin-openvpn
 fprintd
 awww
 matugen
+nwg-displays
