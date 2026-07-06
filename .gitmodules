@@ -1,4 +1,3 @@
 [submodule "dotfiles/.config/ml4w/wallpapers"]
 	path = dotfiles/.config/ml4w/wallpapers
 	url = https://github.com/mylinuxforwork/wallpaper.git
-    shallow = true

@@ -1,3 +1,13 @@
+Version 2.14.0
+--------------------------------------------------------
+- New optional Quickshell-based statusbar — activate in Sidebar, expand with hover or SUPER + SPACE
+- Added Dock autohide toggle to Sidebar
+- Multi-layout keyboard switching via ALT + SHIFT (configure layouts in input.lua, e.g. kb_layout = "de,us")
+- Toggle special workspace with SUPER + SHIFT + S
+- Navigate Powermenu options with arrow keys, confirm with Return
+- New SVG icons for Powermenu and Sidebar
+- Sidepad temporarily removed — will be replaced by a new scratchpad feature
+
 Version 2.13.0
 --------------------------------------------------------
 - Hyprland Configuration converted into new lua format.

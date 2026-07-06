@@ -3,7 +3,7 @@
 --  / /|_/ / /_/_  _/ |/ |/ / / /_/ /\ \  
 -- /_/  /_/____//_/ |__/|__/  \____/___/
 --   
--- Advanced configuration for Hyprland                                       
+-- Advanced configuration for Hyprland
 
 -- FUNCTIONS
 require("functions")
@@ -36,9 +36,12 @@ require("conf.windowrule")
 require("conf.animation")
 require("conf.ml4w")
 
+-- CUSTOM
+local f = io.open(os.getenv("HOME") .. "/.config/hypr/custom.lua", "r")
+if f then
+    f:close()
+    require("custom")
+end
+
 -- HYPRMOD
 require("hyprland-gui")
-
--- CUSTOM
-require("custom")
-

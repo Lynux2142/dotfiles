@@ -17,8 +17,8 @@ hl.env("PATH", HOME .. "/.cargo/bin:" .. current_path)
 
 -- Pavucontrol
 hl.window_rule({
-    name  = "pavucontrol",
-    match = { class = "*org.pulseaudio.pavucontrol*" },
+    name = "pavucontrol",
+    match = {class = "*org.pulseaudio.pavucontrol*"},
     float = true,
     center = true,
     size = "700 600"
@@ -26,8 +26,8 @@ hl.window_rule({
 
 -- ML4W Welcome App
 hl.window_rule({
-    name  = "ml4w-welcome-app",
-    match = { title = "ML4W Welcome" },
+    name = "ml4w-welcome-app",
+    match = {title = "ML4W Welcome"},
     float = true,
     center = true,
     pin = true,
@@ -156,14 +156,17 @@ hl.window_rule({
     size = "1000 700"
 })
 
--- ML4W Sidepad
+-- Picture-in-Picture
 hl.window_rule({
-    name = "dotfiles-sidepad",
-    match = {class = "dotfiles-sidepad"},
+    name = "Picture-in-Picture",
+    match = {
+        title = [[^([Pp]icture[-\s]?[Ii]n[-\s]?[Pp]icture)(.*)$]]
+    },
     float = true,
     pin = true,
-    center = true,
-    size = "1000 700"
+    focus_on_activate = false,
+    no_initial_focus = true,
+    suppress_event = "activate"
 })
 
 -- Wayland variables
@@ -173,11 +176,10 @@ hl.env("DESKTOP_SESSION", "Hyprland")
 hl.env("XDG_SESSION_TYPE", "wayland")
 
 -- Qt related environment variables
-hl.env("QT_QPA_PLATFORM", "wayland")
+hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")
 
--- XDG Desktop Portal
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 hl.env("XDG_SESSION_TYPE", "wayland")
 hl.env("XDG_SESSION_DESKTOP", "Hyprland")
@@ -202,3 +204,10 @@ hl.env("SDL_VIDEODRIVER", "wayland")
 
 -- Quickshell debug
 hl.env("QS_NO_RELOAD_POPUP", "1")
+
+-- Force zero scaling for XWayland
+hl.config({
+  xwayland = {
+    force_zero_scaling = true
+  }
+})
