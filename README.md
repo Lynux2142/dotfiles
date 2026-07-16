@@ -13,11 +13,11 @@ You can find all installation options in the documentation of the ML4W OS for Hy
 Copy one of the following commands into your terminal:
 
 ```sh
-bash <(curl -s https://ml4w.com/os/stable) # Stable Release
+bash <(curl -s https://raw.githubusercontent.com/Lynux2142/dotfiles/master/stable-install.sh) # Stable Release
 ```
 
 ```sh
-bash <(curl -s https://ml4w.com/os/rolling) # Rolling Release (only Hyprland 0.55.x)
+bash <(curl -s https://raw.githubusercontent.com/Lynux2142/dotfiles/master/rolling-install.sh) # Rolling Release (only Hyprland 0.55.x)
 ```
 Arch, Fedora and openSuse Tumblweed are directly supported.
 
@@ -28,28 +28,6 @@ Test the ML4W OS without risk on your computer or in a Virtual Machine with the 
 <a href="https://ml4w.com/iso/ml4w-os/ml4w-os-2.14.0-x86_64.iso">Download the ML4W ISO</a>
 
 You can install the ML4W OS on your hard drive with the command `sudo install-ml4w-os` (BETA).
-
-### Install the ML4W OS on your distribution
-
-Install the ML4W OS on top of your current distro with the Dotfiles Installer (Available on Flathub).<br>Click on the badge below to install the app.
-
-<a href="https://ml4w.com/dotfiles-installer/" target="_blank"><img src="https://ml4w.com/dotfiles-installer/dotfiles-installer-badge.png" style="border:0;margin-bottom:10px"></a>
-
-Copy the following url into the Dotfiles Installer and start the installation.
-
-#### Stable Release
-
-```
-https://raw.githubusercontent.com/Lynux2142/dotfiles/master/hyprland-dotfiles-stable.dotinst
-```
-#### Rolling Release
-
-```
-https://raw.githubusercontent.com/Lynux2142/dotfiles/master/hyprland-dotfiles.dotinst
-```
-
-Setup scripts to install the required dependencies are included for <i class="devicon-archlinux-plain"></i> **Arch, <i class="devicon-fedora-plain"></i> Fedora and <i class="devicon-opensuse-plain"></i> openSuse Tumbleweed**.<br>
-For other distros, please install <a href="https://ml4w.com/os/getting-started/dependencies" target="_blank">the dependencies</a> first.
 
 ## Special Thanks
 
