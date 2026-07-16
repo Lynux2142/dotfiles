@@ -62,7 +62,7 @@ fi
 
 # 5. Execute the Installer
 info "Launching the Dotfiles Installer..."
-ml4w-dotfiles-installer --install https://raw.githubusercontent.com/Lynux2142/dotfiles/main/hyprland-dotfiles-stable.dotinst
+ml4w-dotfiles-installer --install https://raw.githubusercontent.com/Lynux2142/dotfiles/master/hyprland-dotfiles-stable.dotinst
 
 # Cleanup
 rm -rf "$TEMP_DIR"
