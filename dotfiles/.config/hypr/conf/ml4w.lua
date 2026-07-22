@@ -88,7 +88,7 @@ hl.window_rule({
     match = {class = "nwg-displays"},
     float = true,
     center = true,
-    size = "900 600"
+    size = "1080 600"
 })
 
 -- System Mission Center
