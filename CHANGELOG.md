@@ -1,3 +1,13 @@
+Version 2.15
+--------------------------------------------------------
+- nwg-dock-hyprland replaced with Quickshell based dock (nwg-dock-hyprland not supported on Fedora 44)
+- Scratchpad feature updated: SUPER + SHIFT + S to move the current window into the scratchpad workspace.
+  SUPER + S to toggle the scatchpad workspace.
+- Fedora Copr updates
+- Using Quickshell Status Bar as default (due to existing mouse click issue on Waybar stable). Waybar can be selected from the sidebar.
+- Global ML4W Themes have been temporarily removed. They will be back soon.
+- walker and nwg-dock-hyprland configs removed
+
 Version 2.14.1
 --------------------------------------------------------
 - The Quickshell statusbar can be configured in ~/.config/ml4w-statusbar/statusbar.json The file must be created individually. The full list of configuration options are available here: https://ml4w.com/os/ml4w-apps/statusbar
