@@ -175,7 +175,7 @@
       "file": "~/.config/ml4w/settings/wallpaper-app",
       "type": "choose",
       "mode": "overwrite",
-      "default": "quickshell",
+      "default": "waypaper",
       "options": ["quickshell", "waypaper"]
     },{
       "name": "Default Terminal",
