@@ -23,12 +23,17 @@ Scope {
         function disable(): void { DockSettings.setEnabled(false) }
         function autohideOn(): void { DockSettings.setAutohide(true) }
         function autohideOff(): void { DockSettings.setAutohide(false) }
+        function autohideToggle(): void {
+            DockSettings.setAutohide(!DockSettings.autohide)
+        }
         // Re-read dock.json from disk and apply the changes.
         function reload(): void { DockSettings.reloadSettings() }
     }
 
+    // Waits for the settings files before building the window, so the dock is
+    // created once with the values from disk. See DockSettings.ready.
     LazyLoader {
-        active: DockSettings.enabled
+        active: DockSettings.ready && DockSettings.enabled
         DockWindow {}
     }
 }
