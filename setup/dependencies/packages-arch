@@ -1,5 +1,6 @@
 hyprland
 hyprshutdown
+hyprpolkitagent
 libnotify
 qt5-wayland
 qt6-wayland
@@ -8,7 +9,6 @@ uwsm
 python-pip
 python-pipx
 python-gobject
-python-screeninfo
 nm-connection-editor
 network-manager-applet
 imagemagick
@@ -26,7 +26,6 @@ qt6-svg
 qt6-virtualkeyboard
 qt6-multimedia-ffmpeg
 gvfs-mtp
-quickshell
 rocm-smi-lib
 cmake
 npm
@@ -42,3 +41,6 @@ nwg-displays
 ttf-font-awesome
 ttf-nerd-fonts-symbols
 noto-fonts-emoji
+breeze
+libsecret
+tesseract
